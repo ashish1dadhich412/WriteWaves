@@ -35,7 +35,7 @@ The automation script is built using:
 
 A full walkthrough of the project, including test execution, is available in the following video:
 
-[👉 Click here to watch the video](#) *(Replace # with actual video link)*
+https://drive.google.com/file/d/1Z1mE-WCS42U9ovRX0zN7u9SDR0azfdOb/view?usp=sharing #) *(Replace # with actual video link)*
 
 ---
 
