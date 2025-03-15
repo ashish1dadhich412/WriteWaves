@@ -1,5 +1,4 @@
 # WriteWaves
-# 📝 WriteWave - Manual Testing Documentation  
 
 ## 📌 Introduction  
 This repository contains detailed **manual testing documentation** for the **WriteWave** website. The goal was to evaluate its functionality, usability, and performance to ensure a seamless user experience.  
