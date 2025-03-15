@@ -1,42 +1,70 @@
-# WriteWaves
+# Project Overview
 
-## 📌 Introduction  
-This repository contains detailed **manual testing documentation** for the **WriteWave** website. The goal was to evaluate its functionality, usability, and performance to ensure a seamless user experience.  
+This project focuses on automating the testing of the **Register** and **Login** functionalities using the **Page Object Model (POM)** with **Selenium WebDriver** and **TestNG**. It includes both **manual and automated test cases**, along with a **video demonstration** showcasing the execution of tests.
 
-## 🔍 Project Type  
-**Manual Testing** – Conducted exploratory and structured testing to identify bugs and improve usability.  
+## Project Structure
 
-## ✨ Features Tested  
--  **User Registration & Login** – Verified successful signup, login, and error handling.  
--  **Text Editing & Formatting** – Tested document creation, text styling, and formatting options.  
--  **Document Saving & Retrieval** – Ensured users can save and access their work without data loss.  
--  **Collaboration & Sharing** – Checked the real-time editing and document sharing features.  
--  **Performance & UI Responsiveness** – Evaluated speed, mobile-friendliness, and cross-browser compatibility.  
+The project follows a structured **Page Object Model (POM)** approach and includes the following packages inside `src/test/java/`:
 
-## 🏗 Design Assumptions  
-- Assumed the platform is designed for seamless real-time text editing.  
-- Focused on **exploratory testing** to find usability issues beyond standard test cases.  
+```
+src/test/java/
+├── PageObjects/  # Contains Page Object classes (LoginPage, RegisterPage, etc.)
+├── TestCases/    # Contains test cases implementing TestNG
+├── TestBase/     # Contains base classes for setup and configurations
+```
 
-##  Getting Started  
-This project is documentation-focused and does **not** require installation.  
-Simply navigate through the following key documents:  
-- 📜 **Test Plan** – Defines scope, objectives, and testing strategies.  
-- 📋 **RTM (Requirements Traceability Matrix)** – Maps test cases to requirements.  
-- ✅ **Test Cases & Scenarios** – Detailed steps for structured testing.  
-- 🐞 **Bug Reports** – List of identified issues with severity and reproduction steps.  
-- 📊 **Execution Summary** – Overview of test results and recommendations.  
+## Manual Testing
 
-## 📊 Usage & Insights  
-- Understand the testing **methodology and coverage**.  
-- Analyze **identified defects and recommendations** for improvements.  
-- Use the reports as a reference for **future enhancements**.  
+A set of **manual test cases** were created to validate the **Register** and **Login** functionalities. These test cases cover different scenarios, including:
 
-## 🔧 Technology Stack  
-- **Manual Testing Techniques** – Applied for functional and UI testing.  
-- **Documentation Tools** – Used for creating structured test reports.  
+- Valid and invalid registration attempts
+- Login with correct and incorrect credentials
+- Error message validation for missing or incorrect inputs
 
-## 🏁 Conclusion  
-This project demonstrates a **structured approach to manual testing**, incorporating **both predefined and exploratory tests**. The documentation provides stakeholders with valuable insights into the **testing process and overall website quality**.  
+## Automation Testing
 
-## 📞 Contact  
-For further information or queries, feel free to reach out to the project team.  
+The automation script is built using:
+
+1. **Selenium WebDriver** - For UI interactions
+2. **TestNG** - For test execution
+3. **Page Object Model (POM)** - For better maintainability
+4. **Maven** - For dependency management and execution
+5. **Assertions** - To validate expected results
+
+## Video Demonstration
+
+A full walkthrough of the project, including test execution, is available in the following video:
+
+[👉 Click here to watch the video](#) *(Replace # with actual video link)*
+
+---
+
+### **How to Run the Project**
+
+1. **Clone the repository**:
+   ```sh
+   git clone <repository_url>
+   ```
+2. **Navigate to the project directory**:
+   ```sh
+   cd project-directory
+   ```
+3. **Install dependencies using Maven**:
+   ```sh
+   mvn clean install
+   ```
+4. **Run test cases**:
+   ```sh
+   mvn test
+   ```
+
+---
+
+### **Future Enhancements**
+- Implementing **cross-browser testing**
+- Adding **API testing** for authentication flows
+- Enhancing **reporting with Extent Reports**
+
+
+Feel free to contribute to the project and suggest improvements! 🚀
+
